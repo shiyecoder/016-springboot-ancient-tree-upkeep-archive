@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>档案管理 · 古树名木养护档案管理系统</title><link rel="stylesheet" href="../mock.css"></head>
+<body><div class="layout">
+<aside class="side">
+  <div class="brand"><i>古</i><b>古树名木养护档案</b></div>
+  <div class="grp">工作台</div><a href="02-dashboard.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-dashboard"/></svg>工作台</a><div class="grp">古树档案</div><a href="03-tree-list.html" class="on"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>档案管理</a><a href="03-tree-list.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>变更审核</a><div class="grp">巡查管理</div><a href="05-patrol-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查计划</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查记录</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>问题台账</a><div class="grp">养护管理</div><a href="07-care-order.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>养护工单</a><a href="08-care-order-detail.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>用药管理</a><div class="grp">评估分析</div><a href="09-season-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>年度评估</a><a href="09-season-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>季节性养护计划</a><div class="grp">系统管理</div><a href="11-system-user.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>用户管理</a><a href="11-system-user.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>角色管理</a>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">古树名木养护档案 / <b>档案管理</b></div>
+    <div class="who"><span class="muted">消息 3</span><u>主</u><span>主管部门管理员</span></div>
+  </header>
+  <div class="content">
+<div class="filter">
+  <div class="fi"><label>树种</label><div class="inp">全部树种 ▾</div></div>
+  <div class="fi"><label>保护等级</label><div class="inp">全部等级 ▾</div></div>
+  <div class="fi"><label>区域</label><div class="inp">全部区域 ▾</div></div>
+  <div class="fi"><label>巡查日期</label><div class="inp" style="min-width:240px">2026-05-01 ~ 2026-10-31</div></div>
+  <div class="fi"><label>关键字</label><div class="inp">编号 / 位置 / 树种</div></div>
+  <button class="btn p">查询</button><button class="btn">重置</button><a href="#" style="font-size:13px">高级筛选</a>
+</div>
+<div class="card">
+  <h3>古树名木档案<span>共 22 条 · 服务端分页</span></h3>
+  <div style="display:flex;justify-content:space-between;margin-bottom:12px">
+    <div style="display:flex;gap:6px"><button class="btn p s">全部</button><button class="btn s">一级古树</button><button class="btn s">待审核</button><button class="btn s">异常</button></div>
+    <div style="display:flex;gap:8px"><button class="btn">导出当前结果</button><button class="btn p">新增档案</button></div>
+  </div>
+  <table><tr><th>照片</th><th>档案编号</th><th>树种</th><th>树龄(年)</th><th>保护等级</th><th>所在位置</th><th>区域</th><th>健康等级</th><th>责任单位</th><th>最近巡查</th><th>档案状态</th><th>操作</th></tr>
+  <tr><td><div class="thumb"></div></td><td class="num">GS2019001</td><td>银杏</td><td class="num">820</td>
+<td><span class="tag t-dgr">一级</span></td>
+<td>城东文庙前院</td><td>城东片区</td><td><span class="tag t-ok">优</span></td>
+<td>城东绿化养护所</td><td class="num">2026-09-12</td><td><span class="tag t-ok">正常</span></td>
+<td><a href="04-tree-detail.html">查看</a> · <a href="#">编辑</a> · <a href="#">更多</a></td></tr><tr><td><div class="thumb"></div></td><td class="num">GS2019007</td><td>黄连木</td><td class="num">260</td>
+<td><span class="tag t-warn">二级</span></td>
+<td>城南古渡口</td><td>城南片区</td><td><span class="tag t-dgr">差</span></td>
+<td>城东绿化养护所</td><td class="num">2026-10-05</td><td><span class="tag t-ok">正常</span></td>
+<td><a href="04-tree-detail.html">查看</a> · <a href="#">编辑</a> · <a href="#">更多</a></td></tr><tr><td><div class="thumb"></div></td><td class="num">GS2019013</td><td>皂荚</td><td class="num">360</td>
+<td><span class="tag t-warn">二级</span></td>
+<td>城北老粮库院内</td><td>城北片区</td><td><span class="tag t-dgr">差</span></td>
+<td>城西园林工程有限公司</td><td class="num">2026-10-24</td><td><span class="tag t-ok">正常</span></td>
+<td><a href="04-tree-detail.html">查看</a> · <a href="#">编辑</a> · <a href="#">更多</a></td></tr><tr><td><div class="thumb"></div></td><td class="num">GS2019017</td><td>银杏</td><td class="num">560</td>
+<td><span class="tag t-dgr">一级</span></td>
+<td>城东古银杏广场</td><td>城东片区</td><td><span class="tag t-warn">中</span></td>
+<td>古树保护研究中心</td><td class="num">2026-09-28</td><td><span class="tag t-ok">正常</span></td>
+<td><a href="04-tree-detail.html">查看</a> · <a href="#">编辑</a> · <a href="#">更多</a></td></tr><tr><td><div class="thumb"></div></td><td class="num">GS2019022</td><td>朴树</td><td class="num">190</td>
+<td><span class="tag t-info">三级</span></td>
+<td>城北长途汽车站广场</td><td>城北片区</td><td><span class="tag t-dgr">差</span></td>
+<td>城西园林工程有限公司</td><td class="num">2026-08-16</td><td><span class="tag t-ok">已迁移</span></td>
+<td><a href="04-tree-detail.html">查看</a> · <a href="#">编辑</a> · <a href="#">更多</a></td></tr></table>
+  <div class="pager">共 22 条 <div class="pg">‹</div><div class="pg on">1</div><div class="pg">2</div><div class="pg">3</div><div class="pg">›</div> 10 条/页</div>
+</div></div>
+</div></div></body></html>

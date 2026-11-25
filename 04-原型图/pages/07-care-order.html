@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>养护工单 · 古树名木养护档案管理系统</title><link rel="stylesheet" href="../mock.css"></head>
+<body><div class="layout">
+<aside class="side">
+  <div class="brand"><i>古</i><b>古树名木养护档案</b></div>
+  <div class="grp">工作台</div><a href="02-dashboard.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-dashboard"/></svg>工作台</a><div class="grp">古树档案</div><a href="03-tree-list.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>档案管理</a><a href="03-tree-list.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>变更审核</a><div class="grp">巡查管理</div><a href="05-patrol-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查计划</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查记录</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>问题台账</a><div class="grp">养护管理</div><a href="07-care-order.html" class="on"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>养护工单</a><a href="08-care-order-detail.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>用药管理</a><div class="grp">评估分析</div><a href="09-season-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>年度评估</a><a href="09-season-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>季节性养护计划</a><div class="grp">系统管理</div><a href="11-system-user.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>用户管理</a><a href="11-system-user.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>角色管理</a>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">古树名木养护档案 / <b>养护工单</b></div>
+    <div class="who"><span class="muted">消息 3</span><u>主</u><span>主管部门管理员</span></div>
+  </header>
+  <div class="content">
+<div class="filter">
+  <div class="fi"><label>养护类型</label><div class="inp">全部 ▾</div></div>
+  <div class="fi"><label>状态</label><div class="inp">全部 ▾</div></div>
+  <div class="fi"><label>关键字</label><div class="inp">工单编号 / 方案</div></div>
+  <button class="btn p">查询</button>
+</div>
+<div class="card">
+  <h3>养护工单<span>待方案 → 待审核 → 执行中 → 待验收 → 已完成</span></h3>
+  <div style="display:flex;justify-content:space-between;margin-bottom:12px">
+    <div style="display:flex;gap:6px"><button class="btn p s">全部</button><button class="btn s">待办</button><button class="btn s">处理中</button><button class="btn s">已完成</button><button class="btn s">异常</button></div>
+    <button class="btn p">新建工单</button>
+  </div>
+  <table><tr><th>照片</th><th>工单编号</th><th>古树</th><th>养护类型</th><th>养护单位</th><th>进度</th><th>截止日期</th><th>紧急</th><th>状态</th><th>操作</th></tr>
+  <tr><td><div class="thumb"></div></td><td class="num">YH2026010</td><td class="num">GS2019007<div class="muted">黄连木 · 二级</div></td><td>支撑</td><td>城西园林工程有限公司</td><td class="num">60%</td><td class="num" style="color:#A62B32">2026-10-28</td><td><span class="tag t-dgr">紧急</span></td><td><span class="tag t-pri">执行中</span></td><td><a href="08-care-order-detail.html">查看</a> <a href="#">审核</a></td></tr>
+  <tr><td><div class="thumb"></div></td><td class="num">YH2026008</td><td class="num">GS2019022<div class="muted">朴树 · 三级</div></td><td>修剪</td><td>城西园林工程有限公司</td><td class="num">0%</td><td class="num">2026-09-10</td><td class="muted">普通</td><td><span class="tag t-warn">待审核</span></td><td><a href="#">查看</a> <a href="#">审核</a></td></tr>
+  <tr><td><div class="thumb"></div></td><td class="num">YH2026009</td><td class="num">GS2019017<div class="muted">银杏 · 一级</div></td><td>修剪</td><td>城东绿化养护所</td><td class="num">0%</td><td class="num">2026-11-15</td><td class="muted">普通</td><td><span class="tag t-info">待方案</span></td><td><a href="#">查看</a></td></tr>
+  <tr><td><div class="thumb"></div></td><td class="num">YH2026012</td><td class="num">GS2019004<div class="muted">香樟 · 二级</div></td><td>施肥</td><td>城东绿化养护所</td><td class="num">100%</td><td class="num">2026-10-30</td><td class="muted">普通</td><td><span class="tag t-warn">待验收</span></td><td><a href="#">查看</a></td></tr>
+  <tr><td><div class="thumb"></div></td><td class="num">YH2026005</td><td class="num">GS2019007<div class="muted">黄连木 · 二级</div></td><td>复壮</td><td>城西园林工程有限公司</td><td class="num">100%</td><td class="num">2026-07-12</td><td><span class="tag t-dgr">紧急</span></td><td><span class="tag t-ok">已完成</span></td><td><a href="#">查看</a></td></tr></table>
+  <div class="pager">共 34 条 <div class="pg">‹</div><div class="pg on">1</div><div class="pg">2</div><div class="pg">3</div><div class="pg">4</div><div class="pg">›</div> 10 条/页</div>
+</div></div>
+</div></div></body></html>

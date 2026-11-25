@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>季节性养护计划 · 古树名木养护档案管理系统</title><link rel="stylesheet" href="../mock.css"></head>
+<body><div class="layout">
+<aside class="side">
+  <div class="brand"><i>古</i><b>古树名木养护档案</b></div>
+  <div class="grp">工作台</div><a href="02-dashboard.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-dashboard"/></svg>工作台</a><div class="grp">古树档案</div><a href="03-tree-list.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>档案管理</a><a href="03-tree-list.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>变更审核</a><div class="grp">巡查管理</div><a href="05-patrol-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查计划</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查记录</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>问题台账</a><div class="grp">养护管理</div><a href="07-care-order.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>养护工单</a><a href="08-care-order-detail.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>用药管理</a><div class="grp">评估分析</div><a href="09-season-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>年度评估</a><a href="09-season-plan.html" class="on"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>季节性养护计划</a><div class="grp">系统管理</div><a href="11-system-user.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>用户管理</a><a href="11-system-user.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>角色管理</a>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">古树名木养护档案 / <b>季节性养护计划</b></div>
+    <div class="who"><span class="muted">消息 3</span><u>主</u><span>主管部门管理员</span></div>
+  </header>
+  <div class="content">
+<div class="card">
+  <h3>季节性养护计划生成<span>可解释的业务辅助工具</span></h3>
+  <div class="filter" style="margin:0 0 14px;border:none;padding:0">
+    <div class="fi"><label>古树</label><div class="inp" style="min-width:240px">GS2019001 银杏（一级）▾</div></div>
+    <div class="fi"><label>规则版本</label><div class="inp">v3（启用）▾</div></div>
+    <div class="fi"><label>季节</label><div class="inp" style="min-width:110px">秋季 ▾</div></div>
+    <button class="btn p">执行计算</button>
+  </div>
+  <div class="grid2" style="align-items:start">
+    <div style="background:#F4FAFA;border:1px solid #DBE7E8;border-radius:8px;padding:14px;text-align:center">
+      <div class="muted">加权总分</div>
+      <div style="font-size:40px;font-weight:700;color:#174A5C;font-variant-numeric:tabular-nums">90</div>
+      <span class="tag t-dgr">优先养护</span>
+    </div>
+    <div>
+      <h3 style="font-size:14px;color:#174A5C;margin:0 0 6px">结果解释</h3>
+      <p style="line-height:1.9;color:#33474C;margin:0 0 8px">古树 GS2019001（银杏）按规则 v3 计算，加权总分 90，判定为「优先养护」。主要影响因素：树龄区间（权重 20%，得分 100）、保护等级（权重 20%，得分 100）。可改进项：补全健康评估与巡查记录可提升判断准确性。</p>
+      <span class="tag t-warn">未满足条件：无</span>
+    </div>
+  </div>
+</div>
+<div class="card"><h3>计算明细<span>每次计算保存输入快照与规则版本，可追溯</span></h3>
+<table><tr><th>输入因素</th><th>权重</th><th>得分</th><th>加权贡献</th><th>依据说明</th></tr><tr><td>树种</td><td class="num">25%</td><td class="num">95</td><td class="num">24</td><td>银杏 属重点保护树种</td></tr><tr><td>树龄区间</td><td class="num">20%</td><td class="num">100</td><td class="num">20</td><td>估测树龄 820 年，属千年古树重点保护段</td></tr><tr><td>保护等级</td><td class="num">20%</td><td class="num">100</td><td class="num">20</td><td>保护等级 一级，紧迫度 100 分</td></tr><tr><td>健康等级</td><td class="num">20%</td><td class="num">70</td><td class="num">14</td><td>当前健康等级「中」，越差越优先</td></tr><tr><td>季节</td><td class="num">10%</td><td class="num">85</td><td class="num">9</td><td>当前秋季，适宜施基肥与树体加固</td></tr><tr><td>上次养护时间</td><td class="num">5%</td><td class="num">60</td><td class="num">3</td><td>距上次巡查养护 96 天</td></tr></table></div>
+<div class="grid2">
+  <div class="card"><h3>推荐任务<span>每条可回溯到输入因素</span></h3>
+    <div class="tl">
+      <div class="it">秋季施基肥并检查支撑设施（季节规则触发）</div>
+      <div class="it">一级古树季度专项巡查，形成影像对比档案（保护等级触发）</div>
+      <div class="it">对树洞与腐朽部位做防腐处理（树龄≥300 年触发）</div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:10px"><button class="btn">调整结论</button><button class="btn p">采纳建议</button><button class="btn">不采纳</button></div>
+  </div>
+  <div class="card"><h3>规则权重配置<span>六项合计必须 100%</span></h3>
+    <div class="kv" style="grid-template-columns:1fr 1fr">
+      <div><i>树种</i><b class="num">25%</b></div><div><i>树龄区间</i><b class="num">20%</b></div>
+      <div><i>保护等级</i><b class="num">20%</b></div><div><i>健康等级</i><b class="num">20%</b></div>
+      <div><i>季节</i><b class="num">10%</b></div><div><i>上次养护</i><b class="num">5%</b></div>
+    </div>
+    <div class="note" style="margin:12px 0 0">合计 100%，校验通过。修改后仅影响新计算或主动重算的数据。</div>
+    <div style="display:flex;gap:20px;margin-top:12px"><div><b style="font-size:20px;color:#174A5C">30</b><div class="muted">计算次数</div></div><div><b style="font-size:20px;color:#174A5C">63.3%</b><div class="muted">推荐采纳率</div></div><div><b style="font-size:20px;color:#174A5C">16.7%</b><div class="muted">人工调整率</div></div></div>
+  </div>
+</div></div>
+</div></div></body></html>

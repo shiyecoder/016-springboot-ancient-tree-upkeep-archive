@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-dashboard" viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm10 8h8V11h-8v10zM3 21h8v-6H3v6zm10-12h8V3h-8v6z"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 2a6 6 0 0 0-5.2 9H5l3 4h2v5h2v-5h2l3-4h-1.8A6 6 0 0 0 12 2z"/></symbol>
+  <symbol id="i-patrol" viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></symbol>
+  <symbol id="i-care" viewBox="0 0 24 24"><path d="M10 2h4v6h6v4h-6v6h-4v-6H4V8h6z"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20h16v2H2V2h2v18zm3-3V9h3v8H7zm5 0V5h3v12h-3zm5 0v-6h3v6h-3z"/></symbol>
+  <symbol id="i-setting" viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm9.4 4a7.4 7.4 0 0 0-.1-1.2l2-1.5-2-3.4-2.3 1a7.6 7.6 0 0 0-2-1.2L16.6 3h-3.9l-.4 2.7c-.7.2-1.4.6-2 1.2l-2.3-1-2 3.4 2 1.5a7.4 7.4 0 0 0 0 2.4l-2 1.5 2 3.4 2.3-1c.6.5 1.3.9 2 1.2l.4 2.7h3.9l.4-2.7c.7-.3 1.4-.7 2-1.2l2.3 1 2-3.4-2-1.5c.1-.4.1-.8.1-1.2z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2c1.7 0 3.2 2.9 3.2 8H8.8C8.8 6.9 10.3 4 12 4zM4.3 11h2.6c.1-2.3.6-4.4 1.4-5.9A8 8 0 0 0 4.3 11zm0 2a8 8 0 0 0 4 5.9c-.8-1.5-1.3-3.6-1.4-5.9H4.3zm4.5 0c.1 2.2.6 4.2 1.3 5.7.6.2 1.2.3 1.9.3s1.3-.1 1.9-.3c.7-1.5 1.2-3.5 1.3-5.7H8.8zm9.1 0c-.1 2.3-.6 4.4-1.4 5.9a8 8 0 0 0 4-5.9h-2.6zm0-2h2.6a8 8 0 0 0-4-5.9c.8 1.5 1.3 3.6 1.4 5.9z"/></symbol>
+  <symbol id="i-msg" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></symbol>
+</svg>

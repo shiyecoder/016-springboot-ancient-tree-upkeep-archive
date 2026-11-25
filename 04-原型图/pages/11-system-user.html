@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>用户管理 · 古树名木养护档案管理系统</title><link rel="stylesheet" href="../mock.css"></head>
+<body><div class="layout">
+<aside class="side">
+  <div class="brand"><i>古</i><b>古树名木养护档案</b></div>
+  <div class="grp">工作台</div><a href="02-dashboard.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-dashboard"/></svg>工作台</a><div class="grp">古树档案</div><a href="03-tree-list.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>档案管理</a><a href="03-tree-list.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-tree"/></svg>变更审核</a><div class="grp">巡查管理</div><a href="05-patrol-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查计划</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>巡查记录</a><a href="06-patrol-record.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-patrol"/></svg>问题台账</a><div class="grp">养护管理</div><a href="07-care-order.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>养护工单</a><a href="08-care-order-detail.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-care"/></svg>用药管理</a><div class="grp">评估分析</div><a href="09-season-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>年度评估</a><a href="09-season-plan.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-chart"/></svg>季节性养护计划</a><div class="grp">系统管理</div><a href="11-system-user.html" class="on"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>用户管理</a><a href="11-system-user.html"><svg width="14" height="14" fill="currentColor"><use href="../icons.svg#i-setting"/></svg>角色管理</a>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">古树名木养护档案 / <b>用户管理</b></div>
+    <div class="who"><span class="muted">消息 3</span><u>主</u><span>主管部门管理员</span></div>
+  </header>
+  <div class="content">
+<div class="filter">
+  <div class="fi"><label>角色</label><div class="inp">全部角色 ▾</div></div>
+  <div class="fi"><label>关键字</label><div class="inp">账号 / 姓名</div></div>
+  <button class="btn p">查询</button>
+</div>
+<div class="card">
+  <h3>用户管理<span>密码 BCrypt 保存，接口不返回密码字段</span><button class="btn p s">新增用户</button></h3>
+  <table><tr><th>账号</th><th>姓名</th><th>角色</th><th>所属组织</th><th>数据范围</th><th>电话</th><th>状态</th><th>最近登录</th><th>操作</th></tr>
+  <tr><td>admin</td><td>管理员·周志远</td><td>主管部门管理员</td><td>市园林绿化管理局</td><td>ALL</td><td class="num">13901000001</td><td><span class="tag t-ok">启用</span></td><td class="num">2026-10-31 08:30</td><td><a href="#">编辑</a> <a href="#">重置密码</a></td></tr>
+  <tr><td>zhaomin</td><td>赵敏</td><td>巡查人员</td><td>城东绿化养护所</td><td>SELF</td><td class="num">13901000002</td><td><span class="tag t-ok">启用</span></td><td class="num">2026-10-30 09:12</td><td><a href="#">编辑</a> <a href="#">重置密码</a></td></tr>
+  <tr><td>lijing</td><td>李静</td><td>养护单位</td><td>城西园林工程有限公司</td><td>ORG</td><td class="num">13901000004</td><td><span class="tag t-ok">启用</span></td><td class="num">2026-10-28 14:05</td><td><a href="#">编辑</a> <a href="#">重置密码</a></td></tr>
+  <tr><td>chenshu</td><td>陈舒</td><td>园林专家</td><td>古树保护研究中心</td><td>ALL</td><td class="num">13901000006</td><td><span class="tag t-ok">启用</span></td><td class="num">2026-10-29 10:20</td><td><a href="#">编辑</a> <a href="#">重置密码</a></td></tr></table>
+  <div class="pager">共 8 条 <div class="pg on">1</div> 10 条/页</div>
+</div>
+<div class="grid2">
+  <div class="card"><h3>角色管理<span>为角色分配菜单</span></h3>
+    <table><tr><th>编码</th><th>角色</th><th>数据范围</th><th>说明</th></tr>
+    <tr><td>admin</td><td>主管部门管理员</td><td>ALL</td><td>维护树木、保护级别、责任单位、计划和统计</td></tr>
+    <tr><td>patrol</td><td>巡查人员</td><td>SELF</td><td>执行任务，录入树体、生境、保护设施和照片</td></tr>
+    <tr><td>care</td><td>养护单位</td><td>ORG</td><td>接收工单，上报进度、用药、物资和结果</td></tr>
+    <tr><td>expert</td><td>园林专家</td><td>ALL</td><td>评估健康等级、审查方案和复壮结果</td></tr></table></div>
+  <div class="card"><h3>分配菜单<span>已选 14 项</span></h3>
+    <div style="font-size:13px;line-height:2.2;color:#33474C">
+      <div>▾ 古树档案　☑ 档案管理　☑ 变更审核</div>
+      <div>▾ 巡查管理　☑ 巡查计划　☑ 巡查记录　☑ 问题台账</div>
+      <div>▾ 养护管理　☑ 养护工单　☑ 用药管理</div>
+      <div>▾ 评估分析　☑ 年度评估　☑ 季节性养护计划</div>
+      <div>▾ 系统管理　☑ 用户管理　☑ 角色管理　☐ 菜单管理（对业务角色隐藏）</div>
+    </div>
+    <button class="btn p s" style="margin-top:12px">保存授权</button></div>
+</div></div>
+</div></div></body></html>
